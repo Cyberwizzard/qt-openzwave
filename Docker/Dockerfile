@@ -45,7 +45,7 @@ RUN git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git \
 	&& make -j${concurrency} \
 	&& make install
 
-RUN git clone https://github.com/OpenZWave/open-zwave.git \
+RUN git clone https://github.com/Cyberwizzard/open-zwave.git \
 	&& cd open-zwave \
 	&& make -j${concurrency} \
 	&& make install instlibdir=/usr/local/lib/
